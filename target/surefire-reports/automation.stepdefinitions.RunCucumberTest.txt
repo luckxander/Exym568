@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: automation.stepdefinitions.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 52.056 sec <<< FAILURE!
+Sort column by Service date(EXYM-568 As a Clinician,)  Time elapsed: 51.182 sec  <<< ERROR!
+java.text.ParseException: Unparseable date: ""
+	at java.base/java.text.DateFormat.parse(DateFormat.java:399)
+	at automation.stepdefinitions.StepsDefinitionCode.recent_service_date(StepsDefinitionCode.java:131)
+	at ?.I should see the services sorted by the most recent service date(file:///C:/Users/luckx/OneDrive/Documents/workspace-spring-tool-suite-4-4.13.1.RELEASE/exym568/src/test/resources/automation/features/gherkin.feature:17)
+

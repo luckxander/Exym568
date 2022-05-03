@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="automation.stepdefinitions.RunCucumberTest" time="51.182" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.1+12"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\sts-4.13.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657\jre\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\luckx\OneDrive\Documents\workspace-spring-tool-suite-4-4.13.1.RELEASE\exym568"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\luckx\OneDrive\Documents\workspace-spring-tool-suite-4-4.13.1.RELEASE\exym568"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.1+12"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\luckx\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\luckx\OneDrive\Documents\workspace-spring-tool-suite-4-4.13.1.RELEASE\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf17464652678685036605.tmp"/>
+    <property name="jansi.force" value="true"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\sts-4.13.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/sts-4.13.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin/server;C:/Program Files/sts-4.13.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_321\bin;C:\Program Files\nodejs\;C:\Users\luckx\AppData\Local\Android\Sdk\platform-tools;C:\Users\luckx\AppData\Local\Android\Sdk\tools;C:\Users\luckx\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\Git\cmd;C:\Users\luckx\AppData\Local\Microsoft\WindowsApps;C:\Users\luckx\AppData\Roaming\npm;C:\Program Files\sts-4.13.1.RELEASE;;."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\luckx"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="luckx"/>
+    <property name="java.class.path" value="C:\Program Files\sts-4.13.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_1.18.1.20211011-2139\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test -Dstyle.color=always"/>
+    <property name="java.home" value="C:\Program Files\sts-4.13.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657\jre"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="maven.home" value="C:\Users\luckx\OneDrive\Documents\workspace-spring-tool-suite-4-4.13.1.RELEASE\exym568\EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-17.0.1+12"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="EXYM-568 As a Clinician," name="Sort column by Service date" time="51.182">
+    <error message="Unparseable date: &quot;&quot;" type="java.text.ParseException">java.text.ParseException: Unparseable date: &quot;&quot;
+	at java.base/java.text.DateFormat.parse(DateFormat.java:399)
+	at automation.stepdefinitions.StepsDefinitionCode.recent_service_date(StepsDefinitionCode.java:131)
+	at ✽.I should see the services sorted by the most recent service date(file:///C:/Users/luckx/OneDrive/Documents/workspace-spring-tool-suite-4-4.13.1.RELEASE/exym568/src/test/resources/automation/features/gherkin.feature:17)
+</error>
+    <system-out>
+Scenario: Sort column by Service date                                                                  &amp;#27;[90m# src/test/resources/automation/features/gherkin.feature:13&amp;#27;[0m
+Running setUp ...
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI am a clinician user&amp;#27;[0m                                                                          &amp;#27;[90m# automation.stepdefinitions.StepsDefinitionCode.i_am_a_clinician_user()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mI go to the main page Exym vNext portal&amp;#27;[0m                                                         &amp;#27;[90m# automation.stepdefinitions.StepsDefinitionCode.i_go_to_the_main_page_Exym_vNext_portal()&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI click in the sort arrow located to the right of the ‘LAST SERVICE’ text in the ‘Client’s table&amp;#27;[0m &amp;#27;[90m# automation.stepdefinitions.StepsDefinitionCode.sort_last_service()&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI should see the services sorted by the most recent service date&amp;#27;[0m                                &amp;#27;[90m# automation.stepdefinitions.StepsDefinitionCode.recent_service_date()&amp;#27;[0m
+      &amp;#27;[31mjava.text.ParseException: Unparseable date: &quot;&quot;
+	at java.base/java.text.DateFormat.parse(DateFormat.java:399)
+	at automation.stepdefinitions.StepsDefinitionCode.recent_service_date(StepsDefinitionCode.java:131)
+	at ?.I should see the services sorted by the most recent service date(file:///C:/Users/luckx/OneDrive/Documents/workspace-spring-tool-suite-4-4.13.1.RELEASE/exym568/src/test/resources/automation/features/gherkin.feature:17)
+&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI click in the sort arrow located to the right of the ‘SCHEDULED’ text in the ‘My Notes’ table&amp;#27;[0m   &amp;#27;[90m# automation.stepdefinitions.StepsDefinitionCode.sort_my_notes()&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI should see the services sorted by the most recent service date&amp;#27;[0m                                 &amp;#27;[90m# automation.stepdefinitions.StepsDefinitionCode.recent_service_date()&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI should see the notes sorted by scheduled date&amp;#27;[0m                                                  &amp;#27;[90m# automation.stepdefinitions.StepsDefinitionCode.sorted_notes()&amp;#27;[0m
+Running tearDown ...
+</system-out>
+    <system-err>Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 22749
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+</system-err>
+  </testcase>
+</testsuite>
